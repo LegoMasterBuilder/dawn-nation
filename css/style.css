@@ -580,31 +580,66 @@ p{
   }
 }
 
+/*Contact Information*/
+.contact{
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    width: 80%;
+    background-color: #4d4d4d;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.colContact {
+    flex: 33.33%;
+    padding-right: 30px;
+    border: 20px;
+    text-align: center;
+    
+}
+
+.colContact img{
+    float: left;
+}
+
+.linkColumn{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.linkColumn p{
+    font-family: 'Work Sans';
+    margin: 0px;
+    clear: both;
+    color: white;
+    padding-bottom: 1px;
+}
+
+
 
 /* FOOTER */
 
 footer{
-    display: block;
-    z-index: 1;
-	width: 100%;
-	left: 0;
-	bottom: 0;
-	color: white;
+    display: block-inline;
     text-align: center;
-    background-color: #FE9C00;
-}
-
-/* #copyright { 
-    background-color: white;
     width: 100%;
-    text-align: center;
+    background-color: #FE9C00;
+    align-items: center;
+    justify-content: center;
 }
 
-#textfoot { 
-    color:white;
-    background-color:#FE9C00;
-	position:absolute;
-	text-align:center;
-	font-size:Symbol(figma.mixed)px;
-	letter-spacing:0;
-} */
+.copyright { 
+    display: block;
+    height: auto;
+    background-color: #FE9C00;
+    width: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
